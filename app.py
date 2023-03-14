@@ -80,89 +80,141 @@ def main():
 				task = st.selectbox("Task",["Signs","Prediction","Profiles"])
 				if task == "Signs":
 						st.title('Images of Sign Language')
-						col1, col2, col3, col4, col5 ,col6, col7, col8,col9, col10 = st.columns(10)
+						col1,col2,col3 =st.columns(3)
+						col4,col5,col6 =st.columns(3)
 
 						with col1:
-							st.header("0")
-							st.image("Dataset/train/0/IMG_1158.JPG")
-							st.image("Dataset/train/0/IMG_1169.JPG")
-							st.image("Dataset/train/0/IMG_1322.JPG")
-							st.image("Dataset/train/0/IMG_5203.JPG")
-							st.image("Dataset/train/0/IMG_5350.JPG")
-       
-         
-						with col2:
-							st.header("1")
-							st.image("Dataset/train/1/IMG_1159.JPG")
-							st.image("Dataset/train/1/IMG_1313.JPG")
-							st.image("Dataset/train/1/IMG_4070.JPG")
-							st.image("Dataset/train/1/IMG_5646.JPG")
-							st.image("Dataset/train/1/IMG_5573.JPG")
+							st.header("Call me")
+							st.image("hands/call me/image_0.jpg")
+							st.image("hands/call me/image_14.jpg")
+							st.image("hands/call me/image_5.jpg")
+							st.image("hands/call me/image_10.jpg")
+							st.image("hands/call me/image_3.jpg")
             
 
+						with col2:
+							st.header("Okay")
+							st.image("hands/okay/image_4.jpg")
+							st.image("hands/okay/image_7.jpg")
+							st.image("hands/okay/image_0.jpg")
+							st.image("hands/okay/image_15.jpg")
+							st.image("hands/okay/image_13.jpg")
+    
 						with col3:
-							st.header("2")
-							st.image("Dataset/train/2/IMG_4071.JPG")
-							st.image("Dataset/train/2/IMG_4091.JPG")
-							st.image("Dataset/train/2/IMG_1231.JPG")
-							st.image("Dataset/train/2/IMG_1130.JPG")
-							st.image("Dataset/train/2/IMG_5215.JPG")
-       
+								st.header("Stop")
+								st.image("hands/stop/image_13.jpg")
+								st.image("hands/stop/image_3.jpg")
+								st.image("hands/stop/image_11.jpg")
+								st.image("hands/stop/image_15.jpg")
+								st.image("hands/stop/image_10.jpg")	
+        	
 						with col4:
-							st.header("3")
-							st.image("Dataset/train/3/IMG_1325.JPG")
-							st.image("Dataset/train/3/IMG_4092.JPG")
-							st.image("Dataset/train/3/IMG_1325.JPG")
-							st.image("Dataset/train/3/IMG_4072.JPG")
-							st.image("Dataset/train/3/IMG_4174.JPG")
+							st.header("Thumbs up")
+							st.image("hands/thumbs up/image_19.jpg")
+							st.image("hands/thumbs up/image_1.jpg")
+							st.image("hands/thumbs up/image_4.jpg")
+							st.image("hands/thumbs up/image_16.jpg")
+							st.image("hands/thumbs up/image_8.jpg")
+							
         
 						with col5:
-							st.header("4")
-							st.image("Dataset/train/4/IMG_5187.JPG")
-							st.image("Dataset/train/4/IMG_5136.JPG")
-							st.image("Dataset/train/4/IMG_4900.JPG")
-							st.image("Dataset/train/4/IMG_4940.JPG")
-							st.image("Dataset/train/4/IMG_5115.JPG")
+							st.header("Peace")
+							st.image("hands/peace/image_12.jpg")
+							st.image("hands/peace/image_8.jpg")	
+							st.image("hands/peace/image_1.jpg")	
+							st.image("hands/peace/image_18.jpg")	
+							st.image("hands/peace/image_0.jpg")	
         
 						with col6:
-							st.header("5")
-							st.image("Dataset/train/5/IMG_4699.JPG")
-							st.image("Dataset/train/5/IMG_4911.JPG")
-							st.image("Dataset/train/5/IMG_4931.JPG")
-							st.image("Dataset/train/5/IMG_4699.JPG")
-							st.image("Dataset/train/5/IMG_4821.JPG")
-        
-						with col7:
-							st.header("6")
-							st.image("Dataset/train/6/IMG_1318.JPG")
-							st.image("Dataset/train/6/IMG_4045.JPG")
-							st.image("Dataset/train/6/IMG_1185.JPG")
-							st.image("Dataset/train/6/IMG_1235.JPG")
-							st.image("Dataset/train/6/IMG_1297.JPG")
-        
-						with col8:
-							st.header("7")
-							st.image("Dataset/train/7/IMG_4251.JPG")
-							st.image("Dataset/train/7/IMG_4313.JPG")
-							st.image("Dataset/train/7/IMG_1155.JPG")
-							st.image("Dataset/train/7/IMG_4410.JPG")
-							st.image("Dataset/train/7/IMG_4443.JPG")
+							st.header("Thumbs down")
+							st.image("hands/thumbs down/image_18.jpg")
+							st.image("hands/thumbs down/image_7.jpg")
+							st.image("hands/thumbs down/image_9.jpg")
+							st.image("hands/thumbs down/image_6.jpg")
+							st.image("hands/thumbs down/image_11.jpg")
+      
+
+						# with col1:
+						# 	st.header("0")
+						# 	st.image("Dataset/train/0/IMG_1158.JPG")
+						# 	st.image("Dataset/train/0/IMG_1169.JPG")
+						# 	st.image("Dataset/train/0/IMG_1322.JPG")
+						# 	st.image("Dataset/train/0/IMG_5203.JPG")
+						# 	st.image("Dataset/train/0/IMG_5350.JPG")
        
-						with col9:
-							st.header("8")
-							st.image("Dataset/train/8/IMG_4964.JPG")
-							st.image("Dataset/train/8/IMG_5061.JPG")
-							st.image("Dataset/train/8/IMG_5130.JPG")
-							st.image("Dataset/train/8/IMG_5150.JPG")
-							st.image("Dataset/train/8/IMG_5221.JPG")
+         
+						# with col2:
+						# 	st.header("1")
+						# 	st.image("Dataset/train/1/IMG_1159.JPG")
+						# 	st.image("Dataset/train/1/IMG_1313.JPG")
+						# 	st.image("Dataset/train/1/IMG_4070.JPG")
+						# 	st.image("Dataset/train/1/IMG_5646.JPG")
+						# 	st.image("Dataset/train/1/IMG_5573.JPG")
+            
+
+						# with col3:
+						# 	st.header("2")
+						# 	st.image("Dataset/train/2/IMG_4071.JPG")
+						# 	st.image("Dataset/train/2/IMG_4091.JPG")
+						# 	st.image("Dataset/train/2/IMG_1231.JPG")
+						# 	st.image("Dataset/train/2/IMG_1130.JPG")
+						# 	st.image("Dataset/train/2/IMG_5215.JPG")
        
-						with col10:
-							st.header("9")
-							st.image("Dataset/train/9/IMG_5506.JPG")
-							st.image("Dataset/train/9/IMG_5581.JPG")
-							st.image("Dataset/train/9/IMG_5664.JPG")
-							st.image("Dataset/train/9/IMG_5714.JPG")
-							st.image("Dataset/train/9/IMG_5674.JPG")
+						# with col4:
+						# 	st.header("3")
+						# 	st.image("Dataset/train/3/IMG_1325.JPG")
+						# 	st.image("Dataset/train/3/IMG_4092.JPG")
+						# 	st.image("Dataset/train/3/IMG_1325.JPG")
+						# 	st.image("Dataset/train/3/IMG_4072.JPG")
+						# 	st.image("Dataset/train/3/IMG_4174.JPG")
+        
+						# with col5:
+						# 	st.header("4")
+						# 	st.image("Dataset/train/4/IMG_5187.JPG")
+						# 	st.image("Dataset/train/4/IMG_5136.JPG")
+						# 	st.image("Dataset/train/4/IMG_4900.JPG")
+						# 	st.image("Dataset/train/4/IMG_4940.JPG")
+						# 	st.image("Dataset/train/4/IMG_5115.JPG")
+        
+						# with col6:
+						# 	st.header("5")
+						# 	st.image("Dataset/train/5/IMG_4699.JPG")
+						# 	st.image("Dataset/train/5/IMG_4911.JPG")
+						# 	st.image("Dataset/train/5/IMG_4931.JPG")
+						# 	st.image("Dataset/train/5/IMG_4699.JPG")
+						# 	st.image("Dataset/train/5/IMG_4821.JPG")
+        
+						# with col7:
+						# 	st.header("6")
+						# 	st.image("Dataset/train/6/IMG_1318.JPG")
+						# 	st.image("Dataset/train/6/IMG_4045.JPG")
+						# 	st.image("Dataset/train/6/IMG_1185.JPG")
+						# 	st.image("Dataset/train/6/IMG_1235.JPG")
+						# 	st.image("Dataset/train/6/IMG_1297.JPG")
+        
+						# with col8:
+						# 	st.header("7")
+						# 	st.image("Dataset/train/7/IMG_4251.JPG")
+						# 	st.image("Dataset/train/7/IMG_4313.JPG")
+						# 	st.image("Dataset/train/7/IMG_1155.JPG")
+						# 	st.image("Dataset/train/7/IMG_4410.JPG")
+						# 	st.image("Dataset/train/7/IMG_4443.JPG")
+       
+						# with col9:
+						# 	st.header("8")
+						# 	st.image("Dataset/train/8/IMG_4964.JPG")
+						# 	st.image("Dataset/train/8/IMG_5061.JPG")
+						# 	st.image("Dataset/train/8/IMG_5130.JPG")
+						# 	st.image("Dataset/train/8/IMG_5150.JPG")
+						# 	st.image("Dataset/train/8/IMG_5221.JPG")
+       
+						# with col10:
+						# 	st.header("9")
+						# 	st.image("Dataset/train/9/IMG_5506.JPG")
+						# 	st.image("Dataset/train/9/IMG_5581.JPG")
+						# 	st.image("Dataset/train/9/IMG_5664.JPG")
+						# 	st.image("Dataset/train/9/IMG_5714.JPG")
+						# 	st.image("Dataset/train/9/IMG_5674.JPG")
        
             
 
