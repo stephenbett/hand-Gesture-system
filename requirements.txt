@@ -6,4 +6,5 @@ pandas==1.3.5
 streamlit==1.17.0
 tensorflow
 flatbuffers
+opencv-python-headless
 
